@@ -1,0 +1,34 @@
+{
+  "songs": [
+    {
+      "name": "Beautiful One",
+      "artist": "The Spirit",
+      "album": "Jesus rocks"
+     },
+    {
+      "name": "Amazing Grace",
+      "artist": "The Spirit",
+      "album": "Jesus rocks"
+      },
+    {
+      "name": "YOLO Except With Jesus",
+      "artist": "The Spirit",
+      "album": "Jesus rocks"
+    },
+    {
+      "name": "What if Cartoons Got Saved",
+      "artist": "Elohim",
+      "album": "Death to the Nephilim Agenda"
+     },
+    {
+      "name": "Fire on Sodom",
+      "artist": "Elohim",
+      "album": "Death to the Nephilim Agenda"
+      },
+    {
+      "name": "Don't Be Slappin my Angel Dawg",
+      "artist": "Elohim",
+      "album": "Death to the Nephilim Agenda"
+    }
+  ]
+}

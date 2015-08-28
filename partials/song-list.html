@@ -1,0 +1,14 @@
+<section>
+  <ul ng-repeat="song in songs">
+    <li>
+      <h3>{{song.name}}</h3>
+      <p> by {{song.artist}}</p>
+      <p>on the album {{song.album}}</p>
+    </li>
+  </ul>
+</section>
+
+
+<button class="new-song-btn" ng-click="newSong()">Create New Song</button>
+
+
