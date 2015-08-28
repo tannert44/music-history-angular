@@ -1,12 +1,16 @@
 app.controller("SongCtrl",[
-  "$scope",
-  "$location",
-  "getSongs", 
-  function($scope, $location, $getSongs) {
+  '$scope',
+  '$location',
+  '$firebaseArray',
+  function($scope, $location, $firebaseArray) {
+    $scope.songs
+    
+    var ref = new Firebase("https://blazing-torch-6909.firebaseio.com/master-music");
 
-    $scope.songs;
+     var obj = $firebaseArray(ref);
 
-    console.log($getSongs)
+     $scope.songs = obj;
+  
 
   // $getSongs.then(function(data){
   //   console.log(data);  
